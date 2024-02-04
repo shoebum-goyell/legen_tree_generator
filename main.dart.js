@@ -69024,13 +69024,13 @@ a7(){this.ey()
 var s=this.A$
 if(s!=null)s.a7()}}
 A.t2.prototype={
-al(){var s="The Minimum Wages Act 1948 is an Act of Parliament concerning Indian labour law that sets the minimum wages that must be paid to skilled and unskilled labours.",r="SUB/ELABORATION('The Minimum Wages Act 1948 is an Act of Parliament concerning Indian labour law .', SUB/ELABORATION('Indian labour law sets the minimum wages .','The minimum wages must be paid to skilled and unskilled labours .'))"
-return new A.ID(new A.vv(s,r),A.a([new A.vv(s,r)],t.K5),B.k)}}
+al(){var s="The Minimum Wages Act 1948 is an Act of Parliament concerning Indian labour law that sets the minimum wages that must be paid to skilled and unskilled labours."
+return new A.ID(new A.vv(s,'SUB/PURPOSE("New Pension Scheme was implemented with the decision of the Union Government.","his was to replace the Old Pension Scheme which had defined-benefit pensions for all its employees .")'),A.a([new A.vv(s,"SUB/ELABORATION('The Minimum Wages Act 1948 is an Act of Parliament concerning Indian labour law .', SUB/ELABORATION('Indian labour law sets the minimum wages .','The minimum wages must be paid to skilled and unskilled labours .'))")],t.K5),B.k)}}
 A.ID.prototype={
 O(a){return new A.uT(this.a4C(),B.j,null)},
 C3(a){var s,r,q,p,o,n,m
 a=B.d.nE(a)
-if(B.d.cD(a,"'")&&B.d.Lr(a,"'")){A.h_("yo")
+if(B.d.cD(a,'"')&&B.d.Lr(a,'"')){A.h_("yo")
 s=B.d.a3(a,1,a.length-1)
 r=A.O5(s,"*",",")
 q=A.O5(r,"#",")")
@@ -69055,7 +69055,7 @@ if(m.length!==0)l.push(this.C3(m))
 return l},
 aah(a){var s,r,q,p,o
 for(s=a.length,r=!1,q=0,p="";q<s;++q){o=a[q]
-if(o==="'"){r=!r
+if(o==='"'){r=!r
 p+=o}else if(r&&o===",")p+="*"
 else if(r&&o==="(")p+="@"
 else p=r&&o===")"?p+"#":p+o}return p.charCodeAt(0)==0?p:p},
