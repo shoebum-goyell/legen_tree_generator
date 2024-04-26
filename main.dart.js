@@ -75540,7 +75540,7 @@ var $async$ra=A.Y(function(a3,a4){if(a3===1){p=a4
 s=q}while(true)switch(s){case 0:q=3
 i=t.N
 n=A.aD(["Content-Type","application/json"],i,i)
-m=A.axE("POST",A.hH("http://172.16.92.129:3000/get_response"))
+m=A.axE("GET",A.hH("http://172.16.92.129:3000/get_response"))
 A.cB("yoooo")
 h=m
 g=B.d3.mn(A.aD(["sentence",a2],i,i))
